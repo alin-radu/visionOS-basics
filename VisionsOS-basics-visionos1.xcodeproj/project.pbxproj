@@ -36,6 +36,7 @@
 		180244C02B77663600383803 /* SampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleView.swift; sourceTree = "<group>"; };
 		180244C42B77684500383803 /* ContentViewVolumes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewVolumes.swift; sourceTree = "<group>"; };
 		18251F5E2B7806B10082E9B5 /* SkyBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyBox.swift; sourceTree = "<group>"; };
+		18251F602B7807B60082E9B5 /* INFO.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = INFO.md; sourceTree = "<group>"; };
 		184A61CB2B7785C300644E87 /* CosmonautSuit.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = CosmonautSuit.reality; sourceTree = "<group>"; };
 		184A61CD2B77875800644E87 /* CosmonautExperience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmonautExperience.swift; sourceTree = "<group>"; };
 		18C9B8112B77B71600452251 /* ContentViewFullSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewFullSpace.swift; sourceTree = "<group>"; };
@@ -59,6 +60,7 @@
 		1802449F2B775EFC00383803 = {
 			isa = PBXGroup;
 			children = (
+				18251F602B7807B60082E9B5 /* INFO.md */,
 				180244AA2B775EFC00383803 /* VisionsOS-basics-visionos1 */,
 				180244AB2B775EFC00383803 /* Packages */,
 				180244A92B775EFC00383803 /* Products */,
