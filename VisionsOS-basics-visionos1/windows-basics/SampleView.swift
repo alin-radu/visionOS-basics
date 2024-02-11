@@ -1,13 +1,22 @@
 import SwiftUI
 
 struct SampleView: View {
-    var text: String
+    @Environment(\.dismissWindow) private var dismissWindow
+    var window: WindowType
 
     var body: some View {
-        Text("\(text)")
+        VStack {
+            Text("\(window.name)")
+
+            Button {
+                dismissWindow(id: window.rawValue)
+            } label: {
+                Text("Close window")
+            }
+        }
     }
 }
 
 #Preview {
-    SampleView(text: "Window TEST")
+    SampleView(window: WindowType.firstWindow)
 }

@@ -1,3 +1,5 @@
+// https://www.youtube.com/watch?v=b_V19d_sdOw&t=315s
+
 import RealityKit
 import RealityKitContent
 import SwiftUI
@@ -13,14 +15,14 @@ struct ContentViewWindows: View {
                 .symbolEffect(.pulse)
 
             HStack {
-                Button("window-1") {
+                Button(WindowType.firstWindow.name) {
                     // on press
-                    openWindow(id: Constants.window1)
+                    openWindow(id: WindowType.firstWindow.rawValue)
                 }
 
-                Button("window-2") {
+                Button(WindowType.secondWindow.name) {
                     // on press
-                    openWindow(id: Constants.window2)
+                    openWindow(id: WindowType.secondWindow.rawValue)
                 }
             }
         }

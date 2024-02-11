@@ -12,7 +12,7 @@
 		180244B22B775EFC00383803 /* ContentViewWindows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180244B12B775EFC00383803 /* ContentViewWindows.swift */; };
 		180244B42B775EFD00383803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180244B32B775EFD00383803 /* Assets.xcassets */; };
 		180244B72B775EFD00383803 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180244B62B775EFD00383803 /* Preview Assets.xcassets */; };
-		180244BF2B7763FF00383803 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180244BE2B7763FF00383803 /* Constants.swift */; };
+		180244BF2B7763FF00383803 /* WindowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180244BE2B7763FF00383803 /* WindowType.swift */; };
 		180244C12B77663600383803 /* SampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180244C02B77663600383803 /* SampleView.swift */; };
 		180244C52B77684500383803 /* ContentViewVolumes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180244C42B77684500383803 /* ContentViewVolumes.swift */; };
 		18251F5F2B7806B10082E9B5 /* SkyBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18251F5E2B7806B10082E9B5 /* SkyBox.swift */; };
@@ -21,7 +21,9 @@
 		18C9B8122B77B71600452251 /* ContentViewFullSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C9B8112B77B71600452251 /* ContentViewFullSpace.swift */; };
 		18C9B8142B77BB8A00452251 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C9B8132B77BB8A00452251 /* ImmersiveView.swift */; };
 		18C9B8172B77E86F00452251 /* SkyBoxesControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C9B8162B77E86F00452251 /* SkyBoxesControlsView.swift */; };
-		18C9B8192B77EAB700452251 /* ImmersiveVRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C9B8182B77EAB700452251 /* ImmersiveVRView.swift */; };
+		18C9B8192B77EAB700452251 /* ImmersiveStaticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C9B8182B77EAB700452251 /* ImmersiveStaticView.swift */; };
+		18EA4D082B78B04B0092FEED /* ImmersiveDynamicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA4D072B78B04B0092FEED /* ImmersiveDynamicView.swift */; };
+		18EA4D0A2B78B5BE0092FEED /* beach-video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 18EA4D092B78B5BE0092FEED /* beach-video.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +34,7 @@
 		180244B32B775EFD00383803 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		180244B62B775EFD00383803 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		180244B82B775EFD00383803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		180244BE2B7763FF00383803 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		180244BE2B7763FF00383803 /* WindowType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowType.swift; sourceTree = "<group>"; };
 		180244C02B77663600383803 /* SampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleView.swift; sourceTree = "<group>"; };
 		180244C42B77684500383803 /* ContentViewVolumes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewVolumes.swift; sourceTree = "<group>"; };
 		18251F5E2B7806B10082E9B5 /* SkyBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyBox.swift; sourceTree = "<group>"; };
@@ -42,7 +44,9 @@
 		18C9B8112B77B71600452251 /* ContentViewFullSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewFullSpace.swift; sourceTree = "<group>"; };
 		18C9B8132B77BB8A00452251 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
 		18C9B8162B77E86F00452251 /* SkyBoxesControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyBoxesControlsView.swift; sourceTree = "<group>"; };
-		18C9B8182B77EAB700452251 /* ImmersiveVRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveVRView.swift; sourceTree = "<group>"; };
+		18C9B8182B77EAB700452251 /* ImmersiveStaticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveStaticView.swift; sourceTree = "<group>"; };
+		18EA4D072B78B04B0092FEED /* ImmersiveDynamicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveDynamicView.swift; sourceTree = "<group>"; };
+		18EA4D092B78B5BE0092FEED /* beach-video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "beach-video.mp4"; path = "VisionsOS-basics-visionos1/beach-video.mp4"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +86,10 @@
 				180244C22B77679D00383803 /* windows-basics */,
 				180244C32B77681C00383803 /* volumes-basics */,
 				1898B4442B77B5B200E30037 /* full-space-basics */,
-				18C9B8152B77E81600452251 /* vr-skyboxes */,
+				18C9B8152B77E81600452251 /* vr-static-skyboxes */,
+				18EA4D062B78AFE30092FEED /* vr-dynamic-skyboxes */,
 				180244B32B775EFD00383803 /* Assets.xcassets */,
+				18EA4D092B78B5BE0092FEED /* beach-video.mp4 */,
 				184A61CB2B7785C300644E87 /* CosmonautSuit.reality */,
 				180244B82B775EFD00383803 /* Info.plist */,
 				180244B52B775EFD00383803 /* Preview Content */,
@@ -112,7 +118,7 @@
 			children = (
 				180244B12B775EFC00383803 /* ContentViewWindows.swift */,
 				180244C02B77663600383803 /* SampleView.swift */,
-				180244BE2B7763FF00383803 /* Constants.swift */,
+				180244BE2B7763FF00383803 /* WindowType.swift */,
 			);
 			path = "windows-basics";
 			sourceTree = "<group>";
@@ -135,14 +141,22 @@
 			path = "full-space-basics";
 			sourceTree = "<group>";
 		};
-		18C9B8152B77E81600452251 /* vr-skyboxes */ = {
+		18C9B8152B77E81600452251 /* vr-static-skyboxes */ = {
 			isa = PBXGroup;
 			children = (
+				18C9B8182B77EAB700452251 /* ImmersiveStaticView.swift */,
 				18C9B8162B77E86F00452251 /* SkyBoxesControlsView.swift */,
-				18C9B8182B77EAB700452251 /* ImmersiveVRView.swift */,
 				18251F5E2B7806B10082E9B5 /* SkyBox.swift */,
 			);
-			path = "vr-skyboxes";
+			path = "vr-static-skyboxes";
+			sourceTree = "<group>";
+		};
+		18EA4D062B78AFE30092FEED /* vr-dynamic-skyboxes */ = {
+			isa = PBXGroup;
+			children = (
+				18EA4D072B78B04B0092FEED /* ImmersiveDynamicView.swift */,
+			);
+			path = "vr-dynamic-skyboxes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				180244B72B775EFD00383803 /* Preview Assets.xcassets in Resources */,
+				18EA4D0A2B78B5BE0092FEED /* beach-video.mp4 in Resources */,
 				184A61CC2B7785C300644E87 /* CosmonautSuit.reality in Resources */,
 				180244B42B775EFD00383803 /* Assets.xcassets in Resources */,
 			);
@@ -221,7 +236,8 @@
 			files = (
 				18C9B8172B77E86F00452251 /* SkyBoxesControlsView.swift in Sources */,
 				180244C12B77663600383803 /* SampleView.swift in Sources */,
-				18C9B8192B77EAB700452251 /* ImmersiveVRView.swift in Sources */,
+				18EA4D082B78B04B0092FEED /* ImmersiveDynamicView.swift in Sources */,
+				18C9B8192B77EAB700452251 /* ImmersiveStaticView.swift in Sources */,
 				18251F5F2B7806B10082E9B5 /* SkyBox.swift in Sources */,
 				180244C52B77684500383803 /* ContentViewVolumes.swift in Sources */,
 				18C9B8142B77BB8A00452251 /* ImmersiveView.swift in Sources */,
@@ -229,7 +245,7 @@
 				18C9B8122B77B71600452251 /* ContentViewFullSpace.swift in Sources */,
 				184A61CE2B77875800644E87 /* CosmonautExperience.swift in Sources */,
 				180244B02B775EFC00383803 /* VisionsOS_basics_visionos1App.swift in Sources */,
-				180244BF2B7763FF00383803 /* Constants.swift in Sources */,
+				180244BF2B7763FF00383803 /* WindowType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +376,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VisionsOS-basics-visionos1/Preview Content\"";
@@ -374,6 +391,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alin-radu.VisionsOS-basics-visionos1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -386,6 +404,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VisionsOS-basics-visionos1/Preview Content\"";
@@ -400,6 +419,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alin-radu.VisionsOS-basics-visionos1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

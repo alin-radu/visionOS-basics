@@ -9,7 +9,6 @@ import RealityKit
 import SwiftUI
 
 struct CosmonautExperience: View {
-    @State private var isDisplayed = false
     @State private var cosmonaut: Entity?
 
     var body: some View {
@@ -28,7 +27,6 @@ struct CosmonautExperience: View {
                 content.add(cosmonautEntity)
 
                 cosmonaut = cosmonautEntity
-                isDisplayed = true
             }
         }
     }
