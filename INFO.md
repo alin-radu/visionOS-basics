@@ -10,7 +10,7 @@
 
 ### II. GITHUB
 
-- git@github.com:alin-radu/visionOS-basics.git
+- git@github.com:alin-radu/visionOS-basics-visionos1.git
 
 ### III. APP
 
